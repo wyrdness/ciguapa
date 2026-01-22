@@ -1,0 +1,362 @@
+{
+  "category": "ENTITY_SPIRIT",
+
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-01-14",
+    "repository": "https://github.com/wyrdness/ciguapa",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+
+  "phenomenon": {
+    "id": "ciguapa",
+    "name": "Ciguapa",
+    "aliases": [],
+    "category": "ENTITY_SPIRIT",
+    "subcategory": "Fae/Feminine Spirit",
+    "tags": [
+      "dominican",
+      "feminine-spirit",
+      "backwards-feet",
+      "nocturnal",
+      "mountain-dwelling",
+      "seductress",
+      "untameable"
+    ],
+    "status": "active",
+    "description": {
+      "summary": "Dominican Republic female spirit with backwards feet that point in the opposite direction of travel, making her impossible to track. Beautiful woman with long dark hair covering her body, nocturnal and untameable.",
+      "full": "The Ciguapa is a legendary creature from Dominican Republic folklore, depicted as a beautiful woman with long, dark hair that covers her entire body and distinctive backwards feet that point opposite to her direction of travel. This unique characteristic makes her impossible to track or follow. The Ciguapa is nocturnal, living in the mountains and caves, and is known for either seducing and killing men or simply eluding all human contact. Descriptions vary - some portray her as beautiful, others as ugly. She communicates through chirping or bird-like sounds rather than human speech (or chooses not to speak). The Ciguapa represents wild, untameable feminine nature and embodies Dominican cultural heritage with influences from indigenous Taíno and African traditions. Only hunting dogs can sense her presence, and she cannot be caught or captured."
+    },
+    "etymology": {
+      "origin": "Dominican folklore with Taíno indigenous and African influences",
+      "meaning": "Exact etymology uncertain; possibly from Taíno language",
+      "first_use": "Pre-colonial to colonial era"
+    }
+  },
+
+  "classification": {
+    "taxonomy": {
+      "category": "ENTITY_SPIRIT",
+      "type": "Feminine spirit",
+      "subtype": "Fae-like / Wild woman",
+      "variant": "Dominican/Caribbean"
+    },
+    "related_phenomena": [
+      {
+        "id": "curupira",
+        "name": "Curupira",
+        "relationship": "similar",
+        "description": "Brazilian forest guardian also with backwards feet"
+      },
+      {
+        "id": "banshee",
+        "name": "Banshee",
+        "relationship": "similar",
+        "description": "Irish female spirit associated with wailing"
+      },
+      {
+        "id": "rusalka",
+        "name": "Rusalka",
+        "relationship": "similar",
+        "description": "Slavic feminine water spirit"
+      },
+      {
+        "id": "vila",
+        "name": "Vila",
+        "relationship": "similar",
+        "description": "Slavic nature spirits, beautiful and dangerous"
+      }
+    ]
+  },
+
+  "characteristics": {
+    "physical": {
+      "height": {
+        "min": 1.5,
+        "max": 1.7,
+        "unit": "meters",
+        "confidence": "medium"
+      },
+      "coloration": [
+        "dark skin",
+        "long dark hair (black or brown)"
+      ],
+      "features": [
+        {
+          "feature": "Backwards feet",
+          "description": "Feet point in opposite direction of travel, making tracking impossible",
+          "frequency": "always"
+        },
+        {
+          "feature": "Long hair",
+          "description": "Dark hair so long it covers entire body like clothing",
+          "frequency": "always"
+        },
+        {
+          "feature": "Naked body",
+          "description": "No clothing, body covered only by hair",
+          "frequency": "always"
+        },
+        {
+          "feature": "Beauty",
+          "description": "Often described as beautiful, though some accounts say ugly",
+          "frequency": "variable"
+        },
+        {
+          "feature": "Dark skin",
+          "description": "Brown or dark complexion",
+          "frequency": "common"
+        }
+      ],
+      "morphology": "Female humanoid with backwards feet. Long flowing hair serves as natural covering. Petite to average height."
+    },
+    "abilities": [
+      {
+        "ability": "Impossible tracking",
+        "description": "Backwards footprints make following her impossible",
+        "frequency": "always",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Nocturnal activity",
+        "description": "Active only at night",
+        "frequency": "always",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Seduction",
+        "description": "Can seduce men, sometimes leading to their death",
+        "frequency": "common",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Bird-like communication",
+        "description": "Makes chirping and bird-like sounds instead of speaking",
+        "frequency": "always",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Evasion",
+        "description": "Cannot be caught or captured except possibly by hunting dogs",
+        "frequency": "always",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Mountain dwelling",
+        "description": "Lives in mountains and caves, perfect knowledge of terrain",
+        "frequency": "always",
+        "evidence_level": "folklore"
+      }
+    ],
+    "behavior": {
+      "activity_period": "nocturnal",
+      "disposition": "variable (dangerous to men, elusive to all)",
+      "social_structure": "solitary",
+      "habitat_preference": [
+        "mountains",
+        "caves",
+        "remote forests",
+        "highlands"
+      ],
+      "diet": "Unknown",
+      "patterns": [
+        "Emerges only at night",
+        "Avoids human contact",
+        "Cannot be tracked due to backwards footprints",
+        "May seduce men who encounter her",
+        "Sometimes helpful, mostly dangerous or elusive"
+      ]
+    }
+  },
+
+  "distribution": {
+    "range": {
+      "description": "Dominican Republic, primarily in mountainous regions",
+      "continents": ["North America"],
+      "countries": ["Dominican Republic"],
+      "regions": [
+        "Central highlands",
+        "Cordillera Central",
+        "Mountain ranges throughout Dominican Republic"
+      ]
+    },
+    "hotspots": [],
+    "temporal": {
+      "first_recorded": {
+        "date": "Colonial era",
+        "circa": true,
+        "source": "Dominican oral traditions with pre-colonial roots"
+      },
+      "peak_activity_periods": [
+        {
+          "period": "Traditional to present",
+          "description": "Active in Dominican folklore from colonial times to present"
+        }
+      ],
+      "seasonal_patterns": "No specific seasonal patterns; nocturnal year-round"
+    }
+  },
+
+  "history": {
+    "origins": {
+      "cultural_roots": "Dominican folklore with influences from indigenous Taíno culture and African traditions brought during colonial period",
+      "earliest_accounts": "Oral traditions from colonial era, likely with pre-colonial indigenous roots",
+      "folklore_connections": "Connected to global traditions of wild feminine spirits and backwards-footed beings"
+    },
+    "timeline": [
+      {
+        "date": "Pre-colonial",
+        "event": "Possible Taíno origins",
+        "significance": "May originate from indigenous Taíno mythology",
+        "source": "Speculation based on cultural analysis"
+      },
+      {
+        "date": "Colonial era",
+        "event": "Folklore synthesis",
+        "significance": "Taíno and African elements merge in Dominican culture",
+        "source": "Colonial period cultural development"
+      },
+      {
+        "date": "Modern era",
+        "event": "Cultural symbol",
+        "significance": "Ciguapa becomes symbol of Dominican identity and heritage",
+        "source": "Contemporary Dominican culture"
+      }
+    ],
+    "modern_era": "The Ciguapa remains an active and vibrant part of Dominican folklore and cultural identity. She appears in Dominican art, literature, and is recognized as a symbol of the nation's indigenous and African heritage. The figure represents wild, untameable femininity and connection to the land."
+  },
+
+  "sightings": {
+    "statistics": {
+      "total_documented": 0,
+      "verified": 0,
+      "disputed": 0,
+      "debunked": 0,
+      "date_range": {
+        "earliest": "Traditional",
+        "latest": "Traditional"
+      }
+    },
+    "notable": [],
+    "database_path": null
+  },
+
+  "evidence": {
+    "physical": [],
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "trace": []
+  },
+
+  "theories": {
+    "paranormal": [
+      {
+        "name": "Spiritual entity",
+        "description": "Genuine spirit being from Dominican/Taíno cosmology",
+        "proponents": ["Traditional Dominican storytellers"],
+        "evidence_cited": ["Consistent folklore tradition", "Cultural significance"]
+      }
+    ],
+    "scientific": [],
+    "skeptical": [
+      {
+        "name": "Cultural synthesis myth",
+        "description": "Created from blending of Taíno, African, and European folklore elements",
+        "proponents": ["Folklorists", "Cultural historians"],
+        "evidence_cited": ["Multicultural influences in Dominican history", "Similar figures in other cultures"]
+      },
+      {
+        "name": "Social control narrative",
+        "description": "Story created to keep people (especially men) from wandering at night",
+        "proponents": ["Anthropologists"],
+        "evidence_cited": ["Cautionary tale structure", "Danger to nocturnal wanderers"]
+      },
+      {
+        "name": "Feminine archetype",
+        "description": "Represents untameable feminine nature and indigenous heritage",
+        "proponents": ["Cultural scholars"],
+        "evidence_cited": ["Wild woman archetype", "Symbol of pre-colonial culture"]
+      }
+    ]
+  },
+
+  "cultural": {
+    "folklore": {
+      "traditions": [
+        "Dominican oral storytelling",
+        "Taíno indigenous influence",
+        "African diaspora traditions"
+      ],
+      "stories": [
+        "Men who encounter Ciguapa are seduced and killed",
+        "Cannot be tracked due to backwards footprints",
+        "Only hunting dogs can detect her presence",
+        "Lives freely in mountains, cannot be captured"
+      ],
+      "beliefs": "The Ciguapa represents wild femininity, indigenous heritage, and the untameable aspects of nature and culture"
+    },
+    "indigenous": {
+      "cultures": [
+        "Taíno (indigenous Caribbean)",
+        "African diaspora",
+        "Dominican"
+      ],
+      "significance": "Important symbol of Dominican cultural identity, representing indigenous roots and resistance to colonization",
+      "sensitivity_note": "The Ciguapa is part of Dominican and Taíno cultural heritage. Represents important aspects of indigenous and African cultural survival.",
+      "respect_guidelines": "Acknowledge Dominican/Taíno cultural ownership. Do not appropriate or misrepresent the figure."
+    },
+    "popular_culture": {
+      "literature": [
+        "Dominican literature and poetry",
+        "Caribbean folklore collections"
+      ],
+      "film_tv": [
+        "Dominican films and television"
+      ],
+      "games": [],
+      "other": [
+        "Dominican art (painting, sculpture)",
+        "Cultural festivals",
+        "Symbol of Dominican identity"
+      ]
+    }
+  },
+
+  "research": {
+    "researchers": [],
+    "organizations": [],
+    "ongoing_studies": "Study of Dominican folklore and Taíno cultural influences by Caribbean scholars and cultural anthropologists"
+  },
+
+  "sources": [
+    {
+      "id": "dominican-folklore",
+      "type": "cultural tradition",
+      "title": "Dominican Oral Traditions",
+      "authors": ["Various Dominican storytellers"],
+      "publication": "Traditional oral transmission",
+      "date": "Colonial era to present"
+    },
+    {
+      "id": "taino-heritage",
+      "type": "cultural study",
+      "title": "Taíno Cultural Heritage Studies",
+      "authors": ["Caribbean scholars"],
+      "publication": "Various academic sources",
+      "date": "20th-21st century"
+    }
+  ]
+}
