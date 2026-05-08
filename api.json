@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/ciguapa",
     "maintainers": [
       {
@@ -16,110 +16,281 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "ciguapa",
     "name": "Ciguapa",
-    "aliases": [],
+    "aliases": [
+      { "name": "La Ciguapa", "language": "Spanish (Dominican)", "region": "Dominican Republic" },
+      { "name": "Cigüapa", "language": "Spanish", "meaning": "Variant orthography" }
+    ],
     "category": "ENTITY_SPIRIT",
-    "subcategory": "Fae-like / Wild woman",
+    "subcategory": "Wild woman / shapeshifting forest figure",
     "tags": [
-      "of-cultural-resistance-and-survival"
+      "dominican-republic",
+      "caribbean",
+      "folklore",
+      "wild-woman",
+      "backward-feet",
+      "shapeshifter",
+      "mountain"
     ],
     "status": "documented",
     "description": {
-      "summary": "The Ciguapa is a legendary creature from Dominican Republic folklore, depicted as a beautiful woman with long, dark hair that covers her entire body and distinctive backwards feet that point opposite to her direction of travel.",
-      "full": "The Ciguapa is a legendary creature from Dominican Republic folklore, depicted as a beautiful woman with long, dark hair that covers her entire body and distinctive backwards feet that point opposite to her direction of travel. This unique characteristic makes her impossible to track or follow. The Ciguapa is nocturnal, living in the mountains and caves, and is known for either seducing and killing men or simply eluding all human contact. Descriptions vary - some portray her as beautiful, others as ugly. She communicates through chirping or bird-like sounds rather than human speech (or chooses not to speak). The Ciguapa represents wild, untameable feminine nature and embodies Dominican cultural heritage with influences from indigenous Taíno and African traditions. Only hunting dogs can sense her presence, and she cannot be caught or captured."
+      "summary": "The Ciguapa is a creature of Dominican folklore: a small, beautiful (or in some tellings hideous) woman with smooth, dark or bronze skin, very long flowing hair that covers her body, and feet that point backward, allowing her to leave tracks that mislead anyone who tries to follow her into the mountains.",
+      "full": "The Ciguapa (Spanish: La Ciguapa) is the most famous figure of Dominican folklore, a wild female being said to inhabit the mountainous interior of Hispaniola — particularly the Cordillera Central and the Sierra de Bahoruco. Standard descriptions present her as a small woman, naked or nearly so, with smooth dark brown, copper, or in some 19th-century texts dark blue skin, and a long mane of glossy black hair that falls past her ankles and serves as her clothing. Her diagnostic feature is her feet, which are turned backward so that her footprints lead in the opposite direction of her actual travel. Communicating only in chirps, whines, and hoots, never in human speech, the Ciguapa is encountered by men in the deep forest at night; in some versions she is a benign and shy wild creature, in others she lures men by gaze or song and drives them to madness or death. Capture is said to be impossible by ordinary means: only a particular polydactyl five-toed black-and-white dog (perro cinqueño) can track her, and only on the night of a full moon. The figure is first attested in print in 1866, in Francisco Javier Angulo Guridi's romantic story La Ciguapa; her popular profile was further developed by writers such as Manuel de Jesús Galván, José Ramón López, Julia Alvarez, and the Dominican folklorist Mariano Lebrón Saviñón. Ciguapa traditions have entered Dominican national identity as a symbol of indigenous and mountainous resistance, although scholars (including sociologist Ginetta Candelario) note that there is no evidence of a Taíno antecedent and that the figure likely emerged in the 19th century from a combination of African, Spanish, and possibly Canarian influences."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Possibly derived from cigua, the Dominican name for several species of small native birds (Coereba flaveola, Spindalis dominicensis), referencing her chirping voice; the Taíno provenance often claimed for the word is not securely established.",
+      "meaning": "Conventionally translated 'wild woman' or 'mountain woman'; the connection to cigua (small bird) is most often cited.",
+      "first_use": "First written attestation in 1866, in Francisco Javier Angulo Guridi's prose narrative La Ciguapa (Cuba)."
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "ENTITY_SPIRIT",
-      "type": "Fae-like / Wild woman",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Wild woman / forest figure",
+      "subtype": "Backward-footed shapeshifter",
+      "variant": "Dominican (Hispaniolan)"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "patasola", "name": "Patasola", "relationship": "similar", "description": "Colombian one-legged forest woman who lures men into the wilderness" },
+      { "id": "tunda", "name": "La Tunda", "relationship": "similar", "description": "Afro-Colombian / Ecuadorian shapeshifting forest woman with one club foot" },
+      { "id": "siguanaba", "name": "Siguanaba", "relationship": "similar", "description": "Central American long-haired river-woman who deceives unfaithful men" },
+      { "id": "chullachaqui", "name": "Chullachaqui", "relationship": "similar", "description": "Peruvian Amazonian forest spirit with mismatched feet that mislead trackers" },
+      { "id": "deer-woman", "name": "Deer Woman", "relationship": "similar", "description": "Native North American forest woman with deer feet who lures unwary men" },
+      { "id": "huldre", "name": "Huldre", "relationship": "similar", "description": "Scandinavian forest-woman with a non-human feature (cow's tail) used as comparator in folkloric scholarship" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "height": { "min": 1.2, "max": 1.6, "unit": "meters", "confidence": "medium" },
+      "coloration": ["dark brown skin", "bronze / copper", "dark blue (in Angulo Guridi's 1866 description)"],
+      "features": [
+        { "feature": "Backward-pointing feet", "description": "Feet are turned heel-forward so that footprints lead away from her actual direction of travel; the diagnostic feature of the Ciguapa", "frequency": "always" },
+        { "feature": "Very long hair", "description": "Glossy black hair that falls to or below her feet and covers her body; often functions as her only clothing", "frequency": "always" },
+        { "feature": "Smooth skin", "description": "Bronze, dark brown, or in some 19th-century texts dark blue skin; smooth and hairless apart from the head hair", "frequency": "always" },
+        { "feature": "Black slanted eyes", "description": "In Angulo Guridi's original description, 'black and slanted'; in other tellings hypnotic", "frequency": "common" },
+        { "feature": "Small stature", "description": "Roughly the size of a 12–14 year old child; petite build", "frequency": "common" },
+        { "feature": "Bird- or animal-like vocalisations", "description": "Communicates with chirps, whines, and hoots rather than human speech", "frequency": "always" }
+      ],
+      "morphology": "A small humanoid female; striking visually because of the contrast between an apparently beautiful figure and the diagnostic backwards feet."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "False trackways", "description": "Backward feet leave footprints that appear to indicate the opposite of her actual travel, frustrating pursuers", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Bewitching gaze", "description": "Some versions hold that any man who meets her eyes is permanently entranced and can never love another woman", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Stealth and speed", "description": "Slips through the forest noiselessly; can outrun all pursuers except the perro cinqueño hunting dog", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Mimicry of human cries", "description": "Some accounts say her chirping resembles a child's call, drawing rescuers deeper into the mountains", "frequency": "occasional", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "nocturnal",
+      "disposition": "variable",
+      "social_structure": "solitary",
+      "habitat_preference": ["High mountain forest", "Caves", "Riverside thickets", "Secluded coastal palm groves (in some San Cristóbal versions)"],
+      "diet": "Wild fruit and small game; occasionally said to lure men to a fatal embrace",
+      "patterns": [
+        "Encountered by men travelling alone at night",
+        "Hides during the day; emerges at moonrise",
+        "May appear seductive in some tellings, terrifying in others",
+        "Capture said to require a polydactyl five-toed black-and-white dog under a full moon"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Strongly identified with the Dominican Republic and the wider island of Hispaniola, particularly its mountainous interior. Variants and references occur throughout the Hispanic Caribbean diaspora.",
+      "continents": ["North America", "Caribbean"],
+      "countries": ["Dominican Republic", "Haiti (occasional cross-cultural references)"],
+      "regions": [
+        "Cordillera Central",
+        "Cordillera Septentrional",
+        "Sierra de Bahoruco",
+        "Cibao Valley",
+        "San Cristóbal Province",
+        "Constanza and Jarabacoa highlands"
+      ]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Cordillera Central",
+        "location": {
+          "description": "Largest mountain range in the Caribbean; spine of Hispaniola",
+          "country": "Dominican Republic",
+          "region": "Central Highlands",
+          "coordinates": { "latitude": 19.0000, "longitude": -71.0000 }
+        },
+        "peak_period": "19th century to present",
+        "notes": "Classic locus of Ciguapa stories; Pico Duarte and surrounding cloud forests are recurring backdrops in folklore."
+      },
+      {
+        "name": "Cibao Valley",
+        "location": {
+          "description": "Fertile valley of north-central Dominican Republic with surrounding mountains",
+          "country": "Dominican Republic",
+          "region": "Cibao",
+          "coordinates": { "latitude": 19.4500, "longitude": -70.6850 }
+        },
+        "peak_period": "19th century to present",
+        "notes": "The heartland of mestizo and Afro-descendant folklore from which much Dominican Ciguapa lore is recorded."
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
-        "circa": true,
-        "source": "Traditional folklore"
-      }
+        "date": "1866",
+        "circa": false,
+        "source": "Francisco Javier Angulo Guridi, La Ciguapa (Havana, Cuba: Imprenta El Iris, 1866)"
+      },
+      "peak_activity_periods": [
+        { "period": "Late 19th century", "description": "Romantic-nationalist literary phase: Angulo Guridi and contemporaries fashion the Ciguapa as a national symbol" },
+        { "period": "Mid-20th century", "description": "Folklore documentation under Trujillo-era and post-Trujillo cultural institutions, including Mariano Lebrón Saviñón" },
+        { "period": "Late 20th–21st century", "description": "Diasporic literary revival in works by Julia Alvarez, Junot Díaz, and others" }
+      ],
+      "seasonal_patterns": "Encounters are folklorically associated with full-moon nights and the dry season, when mountain travel is more common."
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Largely 19th-century Dominican mestizo folklore, drawing on a blend of Spanish, African, and possibly Canarian influences. The frequently asserted Taíno origin is contested by modern scholarship.",
+      "earliest_accounts": "First written narrative is Angulo Guridi's La Ciguapa (1866). Earlier oral tradition is presumed but not documented in surviving colonial-era sources.",
+      "folklore_connections": "Belongs to the wider Latin American 'wild woman of the woods' tradition, alongside Patasola (Colombia), La Tunda (Pacific coast), Siguanaba (Central America), and the North American Deer Woman."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1866", "event": "Francisco Javier Angulo Guridi publishes La Ciguapa in Havana, the first written attestation of the figure", "significance": "Founding text of the Ciguapa tradition", "source": "Angulo Guridi, F. J. (1866), La Ciguapa" },
+      { "date": "1882", "event": "Manuel de Jesús Galván's novel Enriquillo presents indigenous-themed Dominican imagery that helps fuse the Ciguapa with national-romantic discourse", "significance": "Embeds wild-island figures in Dominican literature", "source": "Galván, M. de J. (1882), Enriquillo" },
+      { "date": "Mid-20th century", "event": "Dominican folklorist Mariano Lebrón Saviñón and others document Ciguapa narratives across the Cibao and Cordillera Central", "significance": "Anchors the figure in academic Dominican folklore studies", "source": "Lebrón Saviñón, M., Historia de la cultura dominicana" },
+      { "date": "2002", "event": "Julia Alvarez publishes The Secret Footprints, a children's book retelling of the Ciguapa legend", "significance": "Brings the tradition to a wide US and diasporic audience", "source": "Alvarez, J. (2002), The Secret Footprints" },
+      { "date": "2009", "event": "Dominican film El Mito de la Ciguapa is released", "significance": "Modern cinematic treatment", "source": "Dominican film industry record" }
+    ],
+    "modern_era": "The Ciguapa has become a defining symbol of Dominican national folklore, used in tourism imagery, school readers, and museum displays (notably the Museo del Hombre Dominicano in Santo Domingo). Diaspora authors such as Julia Alvarez and Junot Díaz invoke her as an emblem of Dominican cultural specificity. Contemporary feminist scholarship (Ginetta Candelario, April Mayes) reads the figure as a site for negotiating gender, race, and indigeneity in modern Dominican identity."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
       "verified": 0,
       "disputed": 0,
-      "debunked": 0
+      "debunked": 0,
+      "date_range": { "earliest": "Folklore", "latest": "Contemporary" }
     },
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "ciguapa-evidence-angulo-1866",
+        "type": "literary text",
+        "name": "La Ciguapa (1866)",
+        "date": "1866",
+        "description": "Francisco Javier Angulo Guridi's prose narrative; the founding written attestation of the figure, describing her bronze skin, slanted black eyes, soft glossy hair, mountain habitat, and bird-like cry.",
+        "status": "verified",
+        "analysis": "Earliest documentary anchor for the modern Ciguapa tradition; subsequent Dominican literature consciously builds on it.",
+        "source": "Angulo Guridi, F. J. (1866), La Ciguapa, Havana: Imprenta El Iris"
+      },
+      {
+        "id": "ciguapa-evidence-museo-dominicano",
+        "type": "ethnographic display",
+        "name": "Museo del Hombre Dominicano displays",
+        "description": "The Museo del Hombre Dominicano in Santo Domingo includes ethnographic materials presenting the Ciguapa as a key figure of Dominican popular folklore.",
+        "status": "verified",
+        "source": "Museo del Hombre Dominicano, Santo Domingo"
+      }
+    ]
   },
+
   "theories": {
     "paranormal": [],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "19th-century literary construction",
+        "description": "Folklorists and historians (notably Ginetta Candelario) argue that the Ciguapa as known today is a 19th-century literary creation built on diffuse Caribbean folklore, with no securely identified Taíno antecedent.",
+        "proponents": ["Ginetta Candelario", "Modern Dominican folklore scholarship"],
+        "evidence_cited": ["Absence of any pre-1866 documentary attestation", "Lack of evidence for the figure in surviving Taíno oral or pictographic record", "Strong literary roots in Angulo Guridi and his contemporaries"]
+      },
+      {
+        "name": "Pan-American 'wild woman' diffusion",
+        "description": "Comparative folklorists locate the Ciguapa in a continental class of forest-women figures and explain her by cultural exchange between Caribbean, Andean, and Central American populations during the colonial and post-colonial periods.",
+        "proponents": ["Folklorists of the Hispanic Caribbean"],
+        "evidence_cited": ["Striking parallels with Patasola, La Tunda, and Siguanaba", "Pattern of feminine forest figures across Latin America"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Dominican mestizo and Afro-Dominican mountain folklore",
+        "19th-century romantic-nationalist Dominican literature",
+        "Diasporic Dominican-American storytelling"
+      ],
+      "stories": [
+        "Angulo Guridi's La Ciguapa (1866) — the founding narrative",
+        "Tales of hunters who follow false footprints into the mountains",
+        "Tales of men permanently bewitched by meeting the Ciguapa's eyes"
+      ],
+      "beliefs": "The Ciguapa is felt by many Dominicans as a real being of the mountains, deserving respect and avoidance; she is sometimes invoked as a protector of the wild interior, sometimes as a danger."
+    },
+    "indigenous": {
+      "cultures": ["Taíno (often claimed as ancestral source, though disputed)"],
+      "significance": "The Ciguapa is widely treated as a residue of Taíno indigenous identity in Dominican popular discourse, though academic consensus does not securely place her in pre-Columbian material.",
+      "sensitivity_note": "Care should be taken not to overstate Taíno provenance: Dominican scholars including Ginetta Candelario explicitly note the absence of pre-Columbian evidence.",
+      "respect_guidelines": "Acknowledge competing accounts of origin; do not present the Ciguapa as straightforwardly 'Taíno mythology' without qualification."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
+      "literature": [
+        "Francisco Javier Angulo Guridi, La Ciguapa (1866)",
+        "Manuel de Jesús Galván, Enriquillo (1882)",
+        "José Ramón López, ensayos folklóricos (early 20th c.)",
+        "Mariano Lebrón Saviñón, Historia de la cultura dominicana",
+        "Julia Alvarez, The Secret Footprints (2002)",
+        "Junot Díaz, The Brief Wondrous Life of Oscar Wao (2007) — references"
+      ],
+      "film_tv": [
+        "El Mito de la Ciguapa (Dominican film, 2009)",
+        "Multiple Dominican television documentaries on national folklore"
+      ],
       "games": [],
-      "other": []
+      "music": [
+        "Dominican merengue and bachata songs invoking 'la Ciguapa' as a romantic figure"
+      ],
+      "other": [
+        "Featured in Dominican tourism and national-identity imagery",
+        "Subject of murals and visual art across the Dominican Republic and the Dominican-American diaspora",
+        "Occasional reference in Dominican carnival costuming"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      { "name": "Ginetta E. B. Candelario", "affiliation": "Smith College", "contribution": "Sociological analysis of Dominican identity, including critical work on Ciguapa origin claims", "period": "2000s–present" },
+      { "name": "Mariano Lebrón Saviñón", "affiliation": "Academia Dominicana de la Lengua", "contribution": "Foundational Dominican folklore scholarship documenting Ciguapa narratives", "period": "20th century" },
+      { "name": "April J. Mayes", "affiliation": "Pomona College", "contribution": "Historical scholarship on Dominican gender and identity that contextualises Ciguapa imagery", "period": "2000s–present" }
+    ],
+    "organizations": [
+      { "name": "Museo del Hombre Dominicano", "url": "https://museodelhombredominicano.gob.do", "focus": "National museum of Dominican anthropology and folklore" },
+      { "name": "Academia Dominicana de la Lengua", "url": "https://www.academia.org.do", "focus": "Documentation of Dominican Spanish, including folkloric vocabulary" }
+    ],
+    "ongoing_studies": "Active scholarship on Dominican identity, gender, and folklore continues to revisit the Ciguapa figure, with particular emphasis on diaspora literature and feminist re-readings."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "wikipedia-ciguapa", "type": "website", "title": "Ciguapa", "publication": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Ciguapa", "accessed": "2026-05-07" },
+    { "id": "angulo-guridi-1866", "type": "book", "title": "La Ciguapa", "authors": ["Francisco Javier Angulo Guridi"], "publication": "Imprenta El Iris, Havana", "date": "1866" },
+    { "id": "galvan-1882", "type": "book", "title": "Enriquillo", "authors": ["Manuel de Jesús Galván"], "publication": "Imprenta García Hermanos, Santo Domingo", "date": "1882" },
+    { "id": "alvarez-2002", "type": "book", "title": "The Secret Footprints", "authors": ["Julia Alvarez"], "publication": "Knopf Books for Young Readers", "date": "2002", "isbn": "978-0375802546" },
+    { "id": "candelario-2007", "type": "book", "title": "Black behind the Ears: Dominican Racial Identity from Museums to Beauty Shops", "authors": ["Ginetta E. B. Candelario"], "publication": "Duke University Press", "date": "2007", "isbn": "978-0822339038" },
+    { "id": "academia-ciguapa-paper", "type": "paper", "title": "La ciguapa y el ciguapeo: Dominican Myth, Metaphor, and Method", "authors": ["April J. Mayes"], "publication": "Academia.edu (working paper)", "url": "https://www.academia.edu/39644726/La_ciguapa_y_el_ciguapeo_Dominican_Myth_Metaphor_and_Method", "accessed": "2026-05-07" }
+  ]
 }
